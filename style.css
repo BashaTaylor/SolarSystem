@@ -4,7 +4,6 @@
 }
 
 body {
-    background-color: rgba(236, 165, 22, 0.727);
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
@@ -67,6 +66,13 @@ figcaption {
     font-size: 19px;
     padding: 20px 0;
     color: rgb(32, 0, 128);
+}
+
+#dwarf_planets {
+    font-size: 19px;
+    padding: 20px 0;
+    color: rgb(32, 0, 128);
+    text-align: center;
 }
 
 ul {
