@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:wheat;
+}
+
+table,
+        th,
+        td {
+            border: 2px solid black;
+        }
+
+        p {
+            color: rgb(73, 14, 235)
+        }
+
+        h1 {
+            font-family: Cursive; 
+            font-size:70px; color:rgb(21, 0, 139)
+        }
+
+        figcaption {
+            color: green;
+        }
+
