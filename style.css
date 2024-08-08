@@ -6,7 +6,7 @@
 body {
     padding-left: 50px;
     padding-right: 50px;
-    background-color:wheat;
+    background-color:rgba(236, 165, 22, 0.727);
 }
 
 table,
@@ -16,15 +16,23 @@ table,
         }
 
         p {
-            color: rgb(73, 14, 235)
+            color: rgb(21, 0, 139)
         }
 
         h1 {
-            font-family: Cursive; 
-            font-size:70px; color:rgb(21, 0, 139)
+            font-size:70px; color:rgb(21, 0, 139);
+            padding: 20px 0 20PX 0;
         }
 
         figcaption {
             color: green;
+            font-weight: bold;
+            font-size: 19px;
+            padding-top: 20px;
         }
+
+#list {
+    font-size: 19px;
+    padding: 20px 0 20PX 0;
+}
 
