@@ -5,6 +5,8 @@
 
 body {
     background-color: rgba(236, 165, 22, 0.727);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
 .image-container {
@@ -19,8 +21,8 @@ body {
 
 .image-container h1 {
     position: absolute;
-    top: 10px; /* Adjust as needed */
-    left: 20px; /* Adjust as needed */
+    top: 15px;
+    left: 30px;
     color: rgb(32, 0, 128);
     font-size: 70px;
     margin: 0;
@@ -28,26 +30,56 @@ body {
 }
 
 .main_content {
-    padding: 20px 30px 50px 30px;
+    padding: 20px 30px 0px 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
-table,
+table {
+    width: 67.67%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: blanchedalmond;
+}
+
 th,
 td {
     border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+p {
+    color: black;
+    margin: 15px 0;
 }
 
 figcaption {
-    color: rgb(32, 0, 128);
+    color: green;
     font-weight: bold;
     font-size: 19px;
     padding: 10px 0 0 30px;
 }
 
-#list {
+#planet_list {
     font-size: 19px;
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
+    color: rgb(32, 0, 128);
+}
+
+ul {
+    list-style-type:decimal ;
+    padding: 0;
+    margin: 15px 0;
+}
+
+ul > li {
+    margin: 5px 0;
+}
+
+ul > li > ul {
+    list-style-type: disc;
+    padding-left: 30px;
 }
